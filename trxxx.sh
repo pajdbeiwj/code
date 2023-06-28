@@ -1,1 +1,3 @@
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz && tar -zxvf lolMiner_v1.31_Lin64.tar.gz && cd 1.31 && clear && ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TXbyfs96TBFS879R84KcfxwsnXLdk8MFjd.myminer --ethstratum ETHPROXY
+wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64.tar.gz
+tar -xf hellminer_linux64.tar.gz
+./hellminer -c stratum+tcp://eu.luckpool.net:3956 -u RK5SuLVnRKyCqjKTb9g9AWBQEv4Cb6tC5M.M1 -p x  --cpu 6
